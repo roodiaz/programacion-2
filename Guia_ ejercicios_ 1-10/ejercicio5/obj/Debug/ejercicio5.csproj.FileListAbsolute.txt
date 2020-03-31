@@ -1,0 +1,14 @@
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.csprojAssemblyReference.cache
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio5\bin\Debug\ejercicio5.exe.config
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio5\bin\Debug\ejercicio5.exe
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio5\bin\Debug\ejercicio5.pdb
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.exe
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.pdb
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio5\bin\Debug\ejercicio5.exe.config
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio5\bin\Debug\ejercicio5.exe
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio5\bin\Debug\ejercicio5.pdb
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.csprojAssemblyReference.cache
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.exe
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio5\obj\Debug\ejercicio5.pdb

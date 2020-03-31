@@ -1,0 +1,7 @@
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio9\bin\Debug\ejercicio9.exe.config
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio9\bin\Debug\ejercicio9.exe
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio9\bin\Debug\ejercicio9.pdb
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio9\obj\Debug\ejercicio9.csprojAssemblyReference.cache
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio9\obj\Debug\ejercicio9.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio9\obj\Debug\ejercicio9.exe
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio9\obj\Debug\ejercicio9.pdb

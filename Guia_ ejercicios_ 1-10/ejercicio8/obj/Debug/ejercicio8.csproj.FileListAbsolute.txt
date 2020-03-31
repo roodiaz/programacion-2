@@ -1,0 +1,7 @@
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio8\bin\Debug\ejercicio8.exe.config
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio8\bin\Debug\ejercicio8.exe
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio8\bin\Debug\ejercicio8.pdb
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio8\obj\Debug\ejercicio8.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio8\obj\Debug\ejercicio8.exe
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio8\obj\Debug\ejercicio8.pdb
+C:\Users\Rocio\Desktop\programacion II\Solucion_Guia_ de_ ejercicios\ejercicio8\obj\Debug\ejercicio8.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio3\bin\Debug\ejercicio3.exe.config
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio3\bin\Debug\ejercicio3.exe
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio3\bin\Debug\ejercicio3.pdb
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio3\obj\Debug\ejercicio3.csprojAssemblyReference.cache
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio3\obj\Debug\ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio3\obj\Debug\ejercicio3.exe
+C:\Users\Rocio\source\repos\Solucion_Guia_ de_ ejercicios\ejercicio3\obj\Debug\ejercicio3.pdb
