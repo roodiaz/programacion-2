@@ -33,7 +33,7 @@ namespace ejercicio16
             alumno1.CalcularFinal();
             Console.WriteLine(alumno1.Mostrar());
 
-            alumno2.Estudiar(9, 4);
+            alumno2.Estudiar(9,4);
             alumno2.CalcularFinal();
             Console.WriteLine(alumno2.Mostrar());
 

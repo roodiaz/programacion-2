@@ -27,8 +27,12 @@ namespace ejercicio16
         public int legajo;
         #endregion
 
-        Random notaAleatoria = new Random();
+        static Random notaAleatoria;
 
+        static Alumno()
+        {        
+           notaAleatoria = new Random();           
+        }
 
         public void Estudiar(byte notaUno, byte notaDos) //para acceder a los atributos privados
         {
@@ -41,7 +45,7 @@ namespace ejercicio16
         {
             if (this.nota1 >= 4 && this.nota2 >= 4)
             {
-                this.notaFinal = notaAleatoria.Next(1, 10);
+                this.notaFinal = notaAleatoria.Next(4, 10);
             }
             else
             {
