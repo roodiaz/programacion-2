@@ -35,6 +35,8 @@ namespace Geometria
             this.vertice3 = vertice3;
             this.vertice2 = new Punto(vertice1.GetX(), vertice3.GetY());
             this.vertice4 = new Punto(vertice3.GetX(), vertice1.GetY());
+            this.area = 0;
+            this.perimetro = 0;
         }
         #endregion
 
@@ -51,30 +53,27 @@ namespace Geometria
 
         public float Area()
         {
-            float basee, altura;
-            bool flag = true;
+            float basee, altura;          
 
-            if(flag)
+            if(this.area == 0)
             {
                 altura = Math.Abs(this.vertice1.GetX() - this.vertice3.GetX());
                 basee = Math.Abs(this.vertice1.GetY() - this.vertice3.GetY());
                 this.area = basee * altura;
-                flag = false;
             }
+
             return GetArea();
         }
 
         public float Perimetro()
         {
             float basee, altura;
-            bool flag = true;
 
-            if(flag)
+            if(this.perimetro ==0)
             {
                 altura = Math.Abs(this.vertice2.GetX() - this.vertice4.GetX());
                 basee = Math.Abs(this.vertice2.GetY() - this.vertice4.GetY());
                 this.perimetro = (basee + altura) * 2;
-                flag = false;
             }
             
             return GetPerimetro();
