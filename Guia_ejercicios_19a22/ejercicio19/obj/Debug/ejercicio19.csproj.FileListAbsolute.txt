@@ -1,0 +1,7 @@
+C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio19\bin\Debug\ejercicio19.exe.config
+C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio19\bin\Debug\ejercicio19.exe
+C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio19\bin\Debug\ejercicio19.pdb
+C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio19\obj\Debug\ejercicio19.csprojAssemblyReference.cache
+C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio19\obj\Debug\ejercicio19.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio19\obj\Debug\ejercicio19.exe
+C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio19\obj\Debug\ejercicio19.pdb
