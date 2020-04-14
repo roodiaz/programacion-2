@@ -89,5 +89,11 @@
   <ItemGroup>
     <None Include="Resources\bloqueado %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Monedas\Monedas.csproj">
+      <Project>{b41177c3-b1c9-4628-ae36-c81a3cb68a85}</Project>
+      <Name>Monedas</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

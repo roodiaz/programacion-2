@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Monedas;
 
-
 namespace Ejercicio23
 {
     public partial class FormMonedas : Form

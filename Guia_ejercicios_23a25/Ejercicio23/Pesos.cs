@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Monedas
 {
-    class Pesos
+    public class Pesos
     {
         private static double cotizRespectoDolar;
         private double cantidad;
