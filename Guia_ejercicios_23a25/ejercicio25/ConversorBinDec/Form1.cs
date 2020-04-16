@@ -23,22 +23,27 @@ namespace ConversorBinDec
         //decimal a binario
         private void btnConvertToDec_Click(object sender, EventArgs e)
         {
-           double aux = Conversor.BinarioDecimal(txtNum1.Text);
+            NumeroBinario b = new NumeroBinario(txtNum1.Text);
+            NumeroDecimal d = (NumeroDecimal)b;
 
-            if (aux == 0)
+            if (d.GetDecimal() == 0)
                 txtConversionDec.Text = "Invalido";
             else
-                txtConversionDec.Text = aux.ToString();
+                txtConversionDec.Text = d.GetDecimal().ToString();
 
             txtConversionDec.Enabled = false;
         }  
 
         private void btnConvertToBin_Click(object sender, EventArgs e)
         {
-            int aux;
+            double aux;
 
-            if(int.TryParse(txtNum2.Text,out aux))
-                txtConversionBin.Text = Conversor.DecimalBinario(aux);              
+            if (double.TryParse(txtNum2.Text,out aux))
+            {
+                NumeroDecimal d = new NumeroDecimal(aux);
+                NumeroBinario b = (NumeroBinario)d;
+                txtConversionBin.Text = b.GetBin();
+            }              
             else
                 txtConversionBin.Text = "Valor invalido";
 
