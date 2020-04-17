@@ -11,9 +11,8 @@ namespace Ejercicio19
     {
         static void Main(string[] args)
         {
-            Equipo equipo = new Equipo(2,"boca");
-            Jugador j1 = new Jugador(389414, "lucas");
-            Jugador j2 = new Jugador(411,"rocio",5,2);
+            Equipo equipo = new Equipo(2,"river");
+            Jugador j2 = new Jugador(411,"martn",5,2);
             Jugador j3 = new Jugador(411, "refafa", 10, 6);
 
             if (equipo + j2)
