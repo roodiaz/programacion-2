@@ -1,7 +1,0 @@
-C:\Users\Rocio\Desktop\programacion II\Guia_ejercicios_11-15\Clase02_ejercicios\obj\Debug\ejercicio11.csprojAssemblyReference.cache
-C:\Users\Rocio\Desktop\programacion II\Guia_ejercicios_11-15\Clase02_ejercicios\obj\Debug\ejercicio11.csproj.CoreCompileInputs.cache
-C:\Users\Rocio\Desktop\programacion II\Guia_ejercicios_11-15\Clase02_ejercicios\bin\Debug\Clase02_ejercicios.exe.config
-C:\Users\Rocio\Desktop\programacion II\Guia_ejercicios_11-15\Clase02_ejercicios\bin\Debug\Clase02_ejercicios.exe
-C:\Users\Rocio\Desktop\programacion II\Guia_ejercicios_11-15\Clase02_ejercicios\bin\Debug\Clase02_ejercicios.pdb
-C:\Users\Rocio\Desktop\programacion II\Guia_ejercicios_11-15\Clase02_ejercicios\obj\Debug\Clase02_ejercicios.exe
-C:\Users\Rocio\Desktop\programacion II\Guia_ejercicios_11-15\Clase02_ejercicios\obj\Debug\Clase02_ejercicios.pdb

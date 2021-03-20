@@ -1,6 +1,0 @@
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_23a25\ejercicio24\ejercicio24\bin\Debug\ejercicio24.dll
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_23a25\ejercicio24\ejercicio24\bin\Debug\ejercicio24.pdb
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_23a25\ejercicio24\ejercicio24\obj\Debug\Entidades.csprojAssemblyReference.cache
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_23a25\ejercicio24\ejercicio24\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_23a25\ejercicio24\ejercicio24\obj\Debug\ejercicio24.dll
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_23a25\ejercicio24\ejercicio24\obj\Debug\ejercicio24.pdb

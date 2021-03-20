@@ -1,7 +1,0 @@
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio22\bin\Debug\ejercicio22.exe.config
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio22\bin\Debug\ejercicio22.exe
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio22\bin\Debug\ejercicio22.pdb
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio22\obj\Debug\ejercicio22.csprojAssemblyReference.cache
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio22\obj\Debug\ejercicio22.csproj.CoreCompileInputs.cache
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio22\obj\Debug\ejercicio22.exe
-C:\Users\Rocio\Desktop\programacion-2\Guia_ejercicios_19a22\ejercicio22\obj\Debug\ejercicio22.pdb
