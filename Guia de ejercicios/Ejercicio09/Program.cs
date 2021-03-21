@@ -21,10 +21,8 @@ namespace Ejercicio09
 
             for (int i = 1; i <= altura; i++)
             {
-                for(int j=0; j < i; j++)
-                {
+                for (int j = 0; j <= (i * 2) - 1; j++)
                     Console.Write("*");
-                }
 
                 Console.WriteLine();//hace los saltos de linea
             }

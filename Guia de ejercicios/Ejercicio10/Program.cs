@@ -19,12 +19,14 @@ namespace Ejercicio10
 
             Console.Clear();
 
-            for (int i = 1; i <= altura; i++)
+            for (int i = 0; i <= altura; i++)
             {
-                for (int j = 0; j < i; j++)
-                {
-                    Console.Write(" *");
-                }
+                for (int j = 1; j <= (altura-i); j++)
+                    Console.Write(" ");
+
+                for (int k = 1; k <= (i * 2) - 1; k++)
+                    Console.Write("*");
+
 
                 Console.WriteLine();//hace los saltos de linea
             }
