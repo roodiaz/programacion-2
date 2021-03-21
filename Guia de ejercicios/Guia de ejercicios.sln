@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio13", "Ejercicio13\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversor", "Conversor\Conversor.csproj", "{EEDAC528-9B15-4AA3-98F2-13C3D9EF2546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio14", "Ejercicio14\Ejercicio14.csproj", "{39351502-AEC0-4BCD-BD65-95E8742820FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoDeArea", "CalculoDeArea\CalculoDeArea.csproj", "{B5DDF750-8BC8-41F5-9A78-26C12BBDE0CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{EEDAC528-9B15-4AA3-98F2-13C3D9EF2546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDAC528-9B15-4AA3-98F2-13C3D9EF2546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDAC528-9B15-4AA3-98F2-13C3D9EF2546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39351502-AEC0-4BCD-BD65-95E8742820FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39351502-AEC0-4BCD-BD65-95E8742820FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39351502-AEC0-4BCD-BD65-95E8742820FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39351502-AEC0-4BCD-BD65-95E8742820FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DDF750-8BC8-41F5-9A78-26C12BBDE0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DDF750-8BC8-41F5-9A78-26C12BBDE0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DDF750-8BC8-41F5-9A78-26C12BBDE0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DDF750-8BC8-41F5-9A78-26C12BBDE0CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,22 +23,20 @@ namespace Conversor
       
         static public int BinarioToDecimal(string valor)
         {
-            char[] arrayEnteros = valor.ToCharArray();
+            double numDec = 0;
+            char[] arrayEnteros = valor.ToCharArray();//convierto string en array
             Array.Reverse(arrayEnteros);
-            double numDec=0;
             //los binarios se convierte de derecha a izquiera, invierto cadena
 
             for(int i=0; i < valor.Length; i++)
             {
-                if (arrayEnteros[i] == '1')
+                if (arrayEnteros[i] == '1')//si es 1 hago potencio sino salteo
                 {
                     numDec += Math.Pow(2, i);
                 }
             }
 
-            return (int)numDec;
-
-           
+            return (int)numDec;       
         }
     }
 }
