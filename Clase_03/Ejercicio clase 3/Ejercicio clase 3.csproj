@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F8042BC-D84A-4FDB-8353-1730A12A0A57}</ProjectGuid>
+    <ProjectGuid>{939B2864-96E2-414F-AE0C-1AA9D50655BF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Objetos</RootNamespace>
-    <AssemblyName>Objetos</AssemblyName>
+    <RootNamespace>Ejercicio_clase_3</RootNamespace>
+    <AssemblyName>Ejercicio clase 3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Biblioteca\Biblioteca.csproj">
-      <Project>{0275d484-4fff-4e9f-a177-8246abeef3a4}</Project>
-      <Name>Biblioteca</Name>
+    <ProjectReference Include="..\Veterinaria\Veterinaria.csproj">
+      <Project>{fdb1480d-a59c-4e62-923c-c75608cc97bc}</Project>
+      <Name>Veterinaria</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
