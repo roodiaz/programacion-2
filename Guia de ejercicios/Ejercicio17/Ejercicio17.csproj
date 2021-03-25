@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42B4CC1F-A406-4604-8D43-52D17F71F66B}</ProjectGuid>
+    <ProjectGuid>{A01F2B99-F4BC-4430-8E95-46D251DB22BF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio16</RootNamespace>
-    <AssemblyName>Ejercicio16</AssemblyName>
+    <RootNamespace>Ejercicio17</RootNamespace>
+    <AssemblyName>Ejercicio17</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Alumnos\Alumnos.csproj">
-      <Project>{826d5ab2-5060-44b0-82c0-1e429bea05de}</Project>
-      <Name>Alumnos</Name>
+    <ProjectReference Include="..\Boligrafo\Boligrafo.csproj">
+      <Project>{048e6a20-d261-4972-ba4f-ea6519a82d27}</Project>
+      <Name>Boligrafo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

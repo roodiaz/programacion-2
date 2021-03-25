@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42B4CC1F-A406-4604-8D43-52D17F71F66B}</ProjectGuid>
+    <ProjectGuid>{D18164B0-1BA1-4929-A83E-05FFEE6F2B86}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio16</RootNamespace>
-    <AssemblyName>Ejercicio16</AssemblyName>
+    <RootNamespace>Ejercicio18</RootNamespace>
+    <AssemblyName>Ejercicio18</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Alumnos\Alumnos.csproj">
-      <Project>{826d5ab2-5060-44b0-82c0-1e429bea05de}</Project>
-      <Name>Alumnos</Name>
+    <ProjectReference Include="..\Punto\Punto.csproj">
+      <Project>{1dbad174-50b8-4442-86d4-e0ab433f9211}</Project>
+      <Name>Punto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rectangulo\Rectangulo.csproj">
+      <Project>{30ac3946-663c-4692-bf67-e698a4a54d26}</Project>
+      <Name>Rectangulo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
