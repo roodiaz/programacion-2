@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C78CF418-DED6-44E1-A766-382EDA109704}</ProjectGuid>
+    <ProjectGuid>{9A7BB085-AADB-4C71-A9D5-ED64FF898920}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio20</RootNamespace>
-    <AssemblyName>Ejercicio20</AssemblyName>
+    <RootNamespace>Clase_04</RootNamespace>
+    <AssemblyName>Clase_04</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Billetes\Billetes.csproj">
-      <Project>{325e7f4c-526f-4ca9-a09a-79ef704a4264}</Project>
-      <Name>Billetes</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Conversor\Conversor.csproj">
+    <ProjectReference Include="..\Conversor\ConversorBinDec.csproj">
       <Project>{eedac528-9b15-4aa3-98f2-13c3d9ef2546}</Project>
-      <Name>Conversor</Name>
+      <Name>ConversorBinDec</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

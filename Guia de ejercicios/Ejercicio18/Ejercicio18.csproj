@@ -50,13 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Punto\Punto.csproj">
-      <Project>{1dbad174-50b8-4442-86d4-e0ab433f9211}</Project>
-      <Name>Punto</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Rectangulo\Rectangulo.csproj">
+    <ProjectReference Include="..\Rectangulo\CalculoRectangulo.csproj">
       <Project>{30ac3946-663c-4692-bf67-e698a4a54d26}</Project>
-      <Name>Rectangulo</Name>
+      <Name>CalculoRectangulo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

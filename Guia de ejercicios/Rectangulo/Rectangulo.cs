@@ -1,5 +1,4 @@
-﻿using punto;
-using System;
+﻿using System;
 using System.Text;
 
 namespace CalculoRectangulo
