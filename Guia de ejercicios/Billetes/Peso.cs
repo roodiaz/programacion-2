@@ -45,7 +45,7 @@ namespace Billetes
         /// <param name="d"></param>
         public static implicit operator Dolar(Peso p)
         {
-            Dolar d = p.GetCantidad() / Peso.GetCotizacion();
+            Dolar d = new Dolar(p.GetCantidad() / Peso.GetCotizacion());
             return d;
         }
 
@@ -84,7 +84,9 @@ namespace Billetes
             Peso peso = new Peso(Math.Abs(p.GetCantidad() - ((Peso)d).GetCantidad()));
             return peso;
         }
+        #endregion
 
+        #region comparaciones
         public static bool operator ==(Peso p1, Peso p2)
         {
             bool retorno = false;

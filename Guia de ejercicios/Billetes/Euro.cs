@@ -52,7 +52,7 @@ namespace Billetes
         /// <param name="e"></param>
         public static explicit operator Dolar(Euro e)
         {
-            Dolar d = e.GetCantidad() / Euro.GetCotizacion();
+            Dolar d = new Dolar(e.GetCantidad() / Euro.GetCotizacion());
             return d;
         }
 
@@ -90,6 +90,43 @@ namespace Billetes
         {
             Euro euro = new Euro(Math.Abs(e.GetCantidad() - ((Euro)p).GetCantidad()));
             return euro;
+        }
+        #endregion
+
+        #region comparaciones
+        public static bool operator ==(Euro e1, Euro e2)
+        {
+            bool retorno = false;
+
+            if (e1.GetCantidad() == e2.GetCantidad())
+                retorno = true;
+
+            return retorno;
+        }
+
+        public static bool operator !=(Euro e1, Euro e2)
+        {
+            return !(e1 == e2);
+        }
+
+        public static bool operator ==(Euro e, Dolar d)
+        {
+            return (e == ((Euro)d));
+        }
+
+        public static bool operator !=(Euro e, Dolar d)
+        {
+            return !(e == (Euro)d);
+        }
+
+        public static bool operator ==(Euro e, Peso p)
+        {
+            return (e == (Euro)p);
+        }
+
+        public static bool operator !=(Euro e, Peso p)
+        {
+            return (e == (Euro)p);
         }
         #endregion
     }

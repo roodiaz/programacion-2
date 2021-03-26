@@ -105,22 +105,22 @@ namespace Billetes
 
         public static bool operator ==(Dolar d, Euro e)
         {
-            return (d == (Dolar)e);
+            return (d == ((Dolar)e));
         }
 
         public static bool operator !=(Dolar d, Euro e)
         {
-            return !(d == (Dolar)e);
+            return !(d == ((Dolar)e));
         }
 
         public static bool operator ==(Dolar d, Peso p)
         {
-            return (d == (Dolar)p);
+            return (d == ((Dolar)p));
         }
 
         public static bool operator !=(Dolar d, Peso p)
         {
-            return !(d == (Dolar)p);
+            return !(d == ((Dolar)p));
         }
 
         #endregion
