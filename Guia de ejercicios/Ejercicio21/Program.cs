@@ -13,24 +13,24 @@ namespace Ejercicio21
         {
 
             Fahrenheit f = new Fahrenheit(32);
-            Celcius c = new Celcius(32);
-            Kelvin k = new Kelvin(32);
+            Celcius c = new Celcius(100);
+            Kelvin k = new Kelvin(150);
 
 
             #region Prueba conversiones Fahrenheit
-            //Celcius c1 = (Celcius)f;
-            //Kelvin k1 = (Kelvin)f;
+            Celcius c1 = (Celcius)f;
+            Kelvin k1 = (Kelvin)f;
 
-            //Console.WriteLine("{0}° fahrenheit es igual a {1:N2}° celcius", f.GetGrados(), c1.GetGrados());
-            //Console.WriteLine("{0}° fahrenheit es igual a {1:N2}° kelvin", f.GetGrados(), k1.GetGrados());
+            Console.WriteLine("{0}° fahrenheit es igual a {1:N2}° celcius", f.GetGrados(), c1.GetGrados());
+            Console.WriteLine("{0}° fahrenheit es igual a {1:N2}° kelvin", f.GetGrados(), k1.GetGrados());
             #endregion
 
             #region prueba conversiones kelvin
-            Celcius c1 = (Celcius)k;
-            Fahrenheit f1 = (Fahrenheit)k;
+            //Celcius c1 = (Celcius)k;
+            //Fahrenheit f1 = (Fahrenheit)k;
 
-            Console.WriteLine("{0:N2}° kelvin es igual a {1:N2}° celcius", k.GetGrados(), c1.GetGrados());
-            Console.Write("{0:N2}° kelvin es igual a {1:N2}° fahrenheit", k.GetGrados(), f1.GetGrados());
+            //Console.WriteLine("{0:N2}° kelvin es igual a {1:N2}° celcius", k.GetGrados(), c1.GetGrados());
+            //Console.Write("{0:N2}° kelvin es igual a {1:N2}° fahrenheit", k.GetGrados(), f1.GetGrados());
             //#endregion
 
             //#region prueba conversiones celcius
@@ -42,15 +42,15 @@ namespace Ejercicio21
             #endregion
 
             #region prueba sumas/resta fahrenheit
-            //Fahrenheit sumaCelcius = f + c;
-            //Fahrenheit sumaKelvin = f + k;
-            //Fahrenheit restaCelcius = f - c;
-            //Fahrenheit restaKelvin = f - k;
+            Fahrenheit sumaCelcius = f + c;
+            Fahrenheit sumaKelvin = f + k;
+            Fahrenheit restaCelcius = f - c;
+            Fahrenheit restaKelvin = f - k;
 
-            //Console.WriteLine(sumaCelcius.GetGrados());
-            //Console.WriteLine(sumaKelvin.GetGrados());
-            //Console.WriteLine(restaCelcius.GetGrados());
-            //Console.Write(restaKelvin.GetGrados());
+            Console.WriteLine(sumaCelcius.GetGrados());
+            Console.WriteLine(sumaKelvin.GetGrados());
+            Console.WriteLine(restaCelcius.GetGrados());
+            Console.Write(restaKelvin.GetGrados());
             #endregion
             Console.ReadKey();
         }

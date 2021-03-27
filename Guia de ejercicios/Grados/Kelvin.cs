@@ -35,5 +35,64 @@ namespace Grados
 
             return c;
         }
+
+        public static Kelvin operator+(Kelvin k, Fahrenheit f)
+        {
+            Kelvin retorno = (k.GetGrados() + ((Kelvin)f).GetGrados());
+            return retorno;
+        }
+
+        public static Kelvin operator +(Kelvin k, Celcius c)
+        {
+            Kelvin retorno = (k.GetGrados() + ((Kelvin)c).GetGrados());
+            return retorno;
+        }
+
+        public static Kelvin operator -(Kelvin k, Fahrenheit f)
+        {
+            Kelvin retorno = (k.GetGrados() - ((Kelvin)f).GetGrados());
+            return retorno;
+        }
+
+        public static Kelvin operator -(Kelvin k, Celcius c)
+        {
+            Kelvin retorno = (k.GetGrados() - ((Kelvin)c).GetGrados());
+            return retorno;
+        }
+
+        public static bool operator ==(Kelvin k1, Kelvin k2)
+        {
+            bool retorno = false;
+
+            if (k1.GetGrados() == k2.GetGrados())
+                retorno = true;
+
+            return retorno;
+        }
+
+        public static bool operator !=(Kelvin k1, Kelvin k2)
+        {
+            return !(k1 == k2);
+        }
+
+        public static bool operator ==(Kelvin k, Fahrenheit f)
+        {
+            return (k == ((Kelvin)f));
+        }
+
+        public static bool operator !=(Kelvin k, Fahrenheit f)
+        {
+            return !(k == ((Kelvin)f));
+        }
+
+        public static bool operator ==(Kelvin k, Celcius c)
+        {
+            return (k == ((Kelvin)c));
+        }
+
+        public static bool operator !=(Kelvin k, Celcius c)
+        {
+            return !(k == ((Kelvin)c));
+        }
     }
 }
