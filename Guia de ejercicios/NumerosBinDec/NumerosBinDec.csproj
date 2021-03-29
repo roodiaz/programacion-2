@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EEDAC528-9B15-4AA3-98F2-13C3D9EF2546}</ProjectGuid>
+    <ProjectGuid>{8F8806E1-EC2E-47D1-BB35-75A8C4192665}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Conversor</RootNamespace>
-    <AssemblyName>Conversor</AssemblyName>
+    <RootNamespace>NumerosBinDec</RootNamespace>
+    <AssemblyName>NumerosBinDec</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conversor.cs" />
+    <Compile Include="NumeroBinario.cs" />
+    <Compile Include="NumeroDecimal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

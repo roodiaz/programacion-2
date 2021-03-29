@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Conversor
+namespace ConversorNumeros
 {
-    public class Class1
+    public class Conversor
     {
         static public string DecimalToBinario(int valor)
         {
             string binario=string.Empty;
 
             while(valor>0)
-            {
+            {            
+                binario = valor % 2 +binario;//concateno el resto a la cadena
                 valor = valor / 2;
-                binario = binario + valor % 2;//concateno el resto a la cadena
             }
-
+      
             return binario;
         }
       
-        static public int BinarioToDecimal(string valor)
+        static public double BinarioToDecimal(string valor)
         {
             double numDec = 0;
             char[] arrayEnteros = valor.ToCharArray();//convierto string en array
@@ -36,7 +36,7 @@ namespace Conversor
                 }
             }
 
-            return (int)numDec;       
+            return numDec;       
         }
     }
 }

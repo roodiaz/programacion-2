@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Conversor;
+using ConversorNumeros;
 
 namespace Ejercicio13
 {
@@ -22,8 +22,8 @@ namespace Ejercicio13
             Console.Clear();
             Console.Write("decimal {0} convertido a binario es {1}\n" +
                           "binario {2} convertido a decimal es {3}",
-                           dec,Class1.DecimalToBinario(dec),
-                           bin,Class1.BinarioToDecimal(bin));
+                           dec,Conversor.DecimalBinario(dec),
+                           bin,Conversor.BinarioDecimal(bin));
 
             Console.ReadKey();
         }
