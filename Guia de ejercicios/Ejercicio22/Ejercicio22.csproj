@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NumerosBinDec\NumerosBinDec.csproj">
+    <ProjectReference Include="..\NumerosBinDec\NumerosBinDec%2822%29.csproj">
       <Project>{8f8806e1-ec2e-47d1-bb35-75a8c4192665}</Project>
-      <Name>NumerosBinDec</Name>
+      <Name>NumerosBinDec%2822%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

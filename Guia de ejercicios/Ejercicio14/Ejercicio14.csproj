@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CalculoDeArea\CalculoDeArea.csproj">
+    <ProjectReference Include="..\CalculoDeArea\CalculoDeArea%2814%29.csproj">
       <Project>{b5ddf750-8bc8-41f5-9a78-26c12bbde0cb}</Project>
-      <Name>CalculoDeArea</Name>
+      <Name>CalculoDeArea%2814%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

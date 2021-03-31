@@ -16,6 +16,11 @@ namespace NumerosBinDec
             this.numero = numero;
         }
 
+        public double GetNum()
+        {
+            return this.numero;
+        }
+
         //conversiones
         public static implicit operator NumeroDecimal(double num)
         {
@@ -26,6 +31,15 @@ namespace NumerosBinDec
         public static explicit operator double(NumeroDecimal d)
         {
             return d.numero;
+        }
+
+        public static explicit operator NumeroBinario(NumeroDecimal d)
+        {
+            int num = (int)d.numero;
+
+            NumeroBinario bin = Conversor.DecimalToBinario(num);
+
+            return bin;
         }
 
         //sobrecarga de operadores
