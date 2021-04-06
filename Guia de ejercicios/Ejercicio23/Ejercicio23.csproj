@@ -46,12 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dolar.cs" />
+    <Compile Include="Euro.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Peso.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -79,12 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Monedas%2823%29\Monedas%2823%29.csproj">
-      <Project>{c3d7f8b7-a0e3-4dde-ad43-c5482f1c6a64}</Project>
-      <Name>Monedas%2823%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="bloqueado.png" />

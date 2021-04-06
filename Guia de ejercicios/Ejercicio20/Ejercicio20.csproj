@@ -43,17 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dolar.cs" />
+    <Compile Include="Euro.cs" />
+    <Compile Include="Peso.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Billetes\Billetes%2820%29.csproj">
-      <Project>{325e7f4c-526f-4ca9-a09a-79ef704a4264}</Project>
-      <Name>Billetes%2820%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
