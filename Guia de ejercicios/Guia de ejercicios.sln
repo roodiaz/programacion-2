@@ -49,8 +49,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alumnos(16)", "Alumnos\Alum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio17", "Ejercicio17\Ejercicio17.csproj", "{A01F2B99-F4BC-4430-8E95-46D251DB22BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boligrafo(17)", "Boligrafo\Boligrafo(17).csproj", "{048E6A20-D261-4972-BA4F-EA6519A82D27}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio18", "Ejercicio18\Ejercicio18.csproj", "{D18164B0-1BA1-4929-A83E-05FFEE6F2B86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoRectangulo(18)", "Rectangulo\CalculoRectangulo(18).csproj", "{30AC3946-663C-4692-BF67-E698A4A54D26}"
@@ -177,10 +175,6 @@ Global
 		{A01F2B99-F4BC-4430-8E95-46D251DB22BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A01F2B99-F4BC-4430-8E95-46D251DB22BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A01F2B99-F4BC-4430-8E95-46D251DB22BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{048E6A20-D261-4972-BA4F-EA6519A82D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{048E6A20-D261-4972-BA4F-EA6519A82D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{048E6A20-D261-4972-BA4F-EA6519A82D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{048E6A20-D261-4972-BA4F-EA6519A82D27}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D18164B0-1BA1-4929-A83E-05FFEE6F2B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D18164B0-1BA1-4929-A83E-05FFEE6F2B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D18164B0-1BA1-4929-A83E-05FFEE6F2B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
