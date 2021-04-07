@@ -10,6 +10,11 @@ namespace Ejercicio33
     {
         private List<string> paginas;
 
+        public Libro()
+        {
+            this.paginas = new List<string>();
+        }
+
         public string this[int i]
         {
             get {
@@ -25,9 +30,6 @@ namespace Ejercicio33
 
             set {
 
-                if (this.paginas is null)
-                    //si la lista esta vacia creo una
-                    this.paginas = new List<string>();
                 if (i < this.paginas.Count() && i > 0)
                     //si la pagina ya existe guardo y/o sobreescribo
                     this.paginas[i] = value;//value es el valor que se pasa
