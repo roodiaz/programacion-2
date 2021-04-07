@@ -43,17 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Celcius.cs" />
+    <Compile Include="Fahrenheit.cs" />
+    <Compile Include="Kelvin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Grados\Grados%2821%29.csproj">
-      <Project>{d22bd580-2e55-4e70-ad83-4f25e204ebae}</Project>
-      <Name>Grados%2821%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

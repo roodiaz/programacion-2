@@ -23,18 +23,18 @@ namespace Ejercicio33
                 if (i >= 0 && i < this.paginas.Count())
                     return this.paginas[i];
                 else
-                    //sino existe retorna vacio
+                    //si no existe retorna vacio
                     return string.Empty;
             
             }
 
             set {
 
-                if (i < this.paginas.Count() && i > 0)
+                if (i >= 0 && i < this.paginas.Count())
                     //si la pagina ya existe guardo y/o sobreescribo
                     this.paginas[i] = value;//value es el valor que se pasa
                 else
-                    //sino existe la pagina agrego una nueva
+                    //si no existe agrego el elemento al final de la lsita
                     this.paginas.Add(value);
             
             }
