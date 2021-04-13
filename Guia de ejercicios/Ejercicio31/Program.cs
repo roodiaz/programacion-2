@@ -27,7 +27,6 @@ namespace Ejercicio31
             }
 
             Console.ReadKey();
-
         }
     }
 }
