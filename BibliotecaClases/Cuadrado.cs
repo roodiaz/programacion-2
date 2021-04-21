@@ -8,11 +8,9 @@ namespace BibliotecaClases
 {
     public sealed class Cuadrado: Rectangulo
     {
-        private double lado;
-
         public Cuadrado(double lado):base(lado,lado)
         {
-            
+          
         }
 
         public override string Dibujar()
