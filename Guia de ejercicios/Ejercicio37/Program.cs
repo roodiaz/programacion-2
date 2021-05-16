@@ -13,7 +13,7 @@ namespace CentralTelefonica
         {
 
             // Mi central
-            Centralita c = new Centralita("Fede Center");
+            Centralita c = new Centralita("Rocio");
             // Mis 4 llamadas
             Local l1 = new Local("Bernal", 30, "Rosario", 2.65f);
             Provincial l2 = new Provincial("Morón", Provincial.Franja.Franja_1, 21, "Bernal");
