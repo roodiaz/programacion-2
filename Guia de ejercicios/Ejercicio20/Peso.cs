@@ -43,7 +43,7 @@ namespace Billetes
         /// Transforma un Peso a Dolar
         /// </summary>
         /// <param name="d"></param>
-        public static implicit operator Dolar(Peso p)
+        public static explicit operator Dolar(Peso p)
         {
             Dolar d = new Dolar(p.GetCantidad() / Peso.GetCotizacion());
             return d;
@@ -53,7 +53,7 @@ namespace Billetes
         /// Transforma un Peso a Euro
         /// </summary>
         /// <param name="p"></param>
-        public static implicit operator Euro(Peso p)
+        public static explicit operator Euro(Peso p)
         {
             Dolar d = (Dolar)p; //reutilizo codigo casteo a dolar;
             Euro e = (Euro)d; //reutilizo codigo casteo de dolar a euro;

@@ -16,7 +16,7 @@ namespace Entidades
         protected override int Tamanio
         {
             get
-            {
+            {              
                 if(!(this.listaCanciones is null))
                 {
                     int aux = this.tamanioMb;
@@ -50,7 +50,7 @@ namespace Entidades
         /// <param name="lista"></param>
         public AppMusical(string nombre, ESistemaOperativo sisOp, int tamanio, List<string> lista)
             : this(nombre, sisOp, tamanio)
-        {
+        { 
             this.listaCanciones = lista;
         }
 
