@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{BE075E8C-D07D-4613-A6EF-A183DC0030C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmpPal", "VistaFrm\frmpPal.csproj", "{7EF69C2B-6272-4A67-A42A-64297A426C19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE075E8C-D07D-4613-A6EF-A183DC0030C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE075E8C-D07D-4613-A6EF-A183DC0030C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE075E8C-D07D-4613-A6EF-A183DC0030C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE075E8C-D07D-4613-A6EF-A183DC0030C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF69C2B-6272-4A67-A42A-64297A426C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF69C2B-6272-4A67-A42A-64297A426C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF69C2B-6272-4A67-A42A-64297A426C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF69C2B-6272-4A67-A42A-64297A426C19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A691842-ED9D-4628-89BB-0149D0F6782F}
+	EndGlobalSection
+EndGlobal
