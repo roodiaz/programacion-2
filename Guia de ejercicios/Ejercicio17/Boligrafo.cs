@@ -7,23 +7,24 @@ using System.Threading.Tasks;
 
 namespace ClaseBoligrafo
 {
-    public class Boligrafo
+        public class Boligrafo
     {
-        const short cantidadMaximaTinta=100;
         private ConsoleColor color;
         private short tinta;
+        public const short cantidadTintaMaxima = 100;
 
-        //constructor
         public Boligrafo(short tinta, ConsoleColor color)
         {
-            this.tinta = tinta;
-            this.color = color;
-        }
+            if(tinta > cantidadTintaMaxima)
+            {
+                this.tinta = 100;
+            }
+            else
+            {
+                this.tinta = tinta;          
+            }
 
-        //getter
-        public ConsoleColor GetColor()
-        {
-            return this.color;
+            this.color = color;
         }
 
         public short GetTinta()
@@ -31,19 +32,22 @@ namespace ClaseBoligrafo
             return this.tinta;
         }
 
-        //setter
+        public ConsoleColor GetColor()
+        {
+            return this.color;
+        }
+
         private void SetTinta(short tinta)
         {
-            if (tinta >= 0 || tinta <= cantidadMaximaTinta)
+            if (tinta >= 0 || tinta <= cantidadTintaMaxima)
                 this.tinta = tinta;
             else
                 this.tinta = Convert.ToByte(GetTinta() - tinta);
         }
 
-        //metodos
         public void Recargar()
         {
-            SetTinta(cantidadMaximaTinta);
+            this.SetTinta(cantidadTintaMaxima);
         }
 
         public bool Pintar(short gasto, out string dibujo)
@@ -51,7 +55,7 @@ namespace ClaseBoligrafo
             bool pudoPintar = false;
             dibujo = string.Empty;
 
-            if(GetTinta() > 0)
+            if (GetTinta() > 0)
             {
                 for (int i = 0; i < gasto; i++)
                 {
@@ -69,6 +73,6 @@ namespace ClaseBoligrafo
 
             return pudoPintar;
         }
-
     }
+
 }
