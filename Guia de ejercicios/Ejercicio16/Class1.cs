@@ -7,46 +7,83 @@ using System.Threading.Tasks;
 
 namespace ejercicio16
 {
-    public class Alumno
+        public class Estudiante
     {
-        private byte nota1;
-        private byte nota2;
-        private float notaFinal;
-        public string apellido;
-        public string nombre;
-        public int legajo;
+        private string apellido;
+        private string legajo;
+        private string nombre;
+        private int notaPrimerParcial;
+        private int notaSegundoParcial;
+        private static Random random;
 
-        Random numeroAleatorio = new Random();
-
-        public void Estudiar(byte nota1, byte nota2)
+        static Estudiante()
         {
-            this.nota1 = nota1;
-            this.nota2 = nota2;
+            random = new Random();
         }
 
-        public void CalcularFinal()
+        public Estudiante(string nombre, string apellido, string legajo)
         {
-            if (this.nota1 >= 4 && this.nota2 >= 4)
-                this.notaFinal = numeroAleatorio.Next(1, 10);
-            else
-                this.notaFinal = -1;
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.legajo = legajo;
+        }
+
+        public void SetNotaPrimerParcial(int nota)
+        {
+            if(nota > 10 || nota < 1)
+            {
+                this.notaPrimerParcial = 1;
+            }
+
+            this.notaPrimerParcial = nota;
+        }
+
+        public void SetNotaSegundoParcial(int nota)
+        {
+            if (nota > 10 || nota < 1)
+            {
+                this.notaSegundoParcial = 1;
+            }
+
+            this.notaSegundoParcial = nota;
+        }
+
+        private float CalcularPromedio()
+        {
+            return (float)(this.notaPrimerParcial + this.notaSegundoParcial) / 2;
+        }
+
+        public double CalcularNotaFinal()
+        {
+            if(this.notaPrimerParcial >= 4 && this.notaSegundoParcial >= 4)
+            {
+                return random.Next(6, 10);
+            }
+
+            return -1;
         }
 
         public string Mostrar()
         {
-            string retorno = $"nombre: {this. nombre}\n" +
-                             $"apellido: {this.apellido}\n" +
-                             $"legajo: {this.legajo}\n" +
-                             $"primer parcial: {this.nota1}\n" +
-                             $"segundo parcial: {this.nota2}\n";
+            StringBuilder informacion = new StringBuilder();
+            double notaFinal = this.CalcularNotaFinal();
 
-            if (this.notaFinal != -1)
-                retorno += $"nota final: {this.notaFinal}\n\n";
+            informacion.AppendLine($"{this.nombre}, {this.apellido}");
+            informacion.AppendLine($"Legajo: {this.legajo}");
+            informacion.AppendLine($"Primer parcial: {this.notaPrimerParcial}");
+            informacion.AppendLine($"Segundo parcial: {this.notaSegundoParcial}");
+            informacion.AppendLine($"Promedio: {this.CalcularPromedio()}");
+            if(notaFinal != -1)
+            {
+                informacion.AppendLine($"Nota final: {notaFinal}");
+            }
             else
-                retorno += "nota final: desabrobado\n\n";
+            {
+                informacion.AppendLine("Alumno desaprobado");
+            }
 
-            return retorno;
-        }   
-
+            return informacion.ToString();
+        }
     }
+
 }
