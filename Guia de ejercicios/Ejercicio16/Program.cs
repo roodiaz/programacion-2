@@ -11,26 +11,24 @@ namespace Ejercicio16
     {
         static void Main(string[] args)
         {
+            Estudiante estudiante1 = new Estudiante("Federico", "Davila", "34567");
+            Estudiante estudiante2 = new Estudiante("Mario", "Rampi", "85392");
+            Estudiante estudiante3 = new Estudiante("Mauricio", "Davila", "91515");
 
-            Alumno a1 = new Alumno();
-            Alumno a2 = new Alumno();
+            estudiante1.SetNotaPrimerParcial(7);
+            estudiante1.SetNotaSegundoParcial(8);
 
-            a1.nombre = "rocio";
-            a1.apellido = "diaz";
-            a1.legajo = 141415;
+            estudiante2.SetNotaPrimerParcial(6);
+            estudiante2.SetNotaSegundoParcial(9);
 
-            a2.nombre = "florencia";
-            a2.apellido = "simon";
-            a2.legajo = 13551;
+            estudiante3.SetNotaPrimerParcial(5);
+            estudiante3.SetNotaSegundoParcial(3);
 
-            a1.Estudiar(5, 7);
-            a1.CalcularFinal();
-            a2.Estudiar(3, 8);
-            a2.CalcularFinal();
-
-            Console.WriteLine(a1.Mostrar());
-            Console.WriteLine(a2.Mostrar());
-
+            Console.WriteLine(
+                estudiante1.Mostrar() + System.Environment.NewLine +
+                estudiante2.Mostrar() + System.Environment.NewLine +
+                estudiante3.Mostrar()
+                );
 
             Console.ReadKey();
         }
